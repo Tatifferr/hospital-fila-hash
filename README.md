@@ -22,6 +22,39 @@ Este projeto implementa duas estruturas de dados em **Python** como atividade pr
 - Python 3.11+  
 - Estruturas de Dados: Lista Encadeada e Hashing  
 
----
+
 
 ## 📂 Estrutura do Projeto
+
+hospital-fila-hash/
+├─ src/
+│  ├─ fila_hospitalar.py
+│  ├─ tabela_hash_estados.py
+├─ tests/
+│  ├─ test_fila.py
+│  └─ test_hash.py
+├─ README.md
+├─ LICENSE
+├─ requirements.txt
+└─ .gitignore
+
+
+
+## Como Executar
+
+Clone o repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/hospital-fila-hash.git
+cd hospital-fila-hash
+
+python -m venv venv
+# Linux/Mac
+source venv/bin/activate
+# Windows PowerShell
+.\venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+
+python src/fila_hospitalar.py
+python src/tabela_hash_estados.py
+
